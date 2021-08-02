@@ -17,3 +17,8 @@ select * from employee_payroll;
 insert into employee_payroll values('Bill',38383,'2018-01-01'),('Mark',56544,'2020-08-09')
 select salary from employee_payroll where name='Bill'
 select * from employee_payroll where startDate between CAST('2018-01-01' As date) and getdate()
+--------------UC6---------------
+alter table employee_payroll add gender char(1);
+--Assign Gender to all entries-----
+update employee_payroll  set gender ='M';
+update employee_payroll set gender='F' where name='Ashwin' or name='sahithi';
