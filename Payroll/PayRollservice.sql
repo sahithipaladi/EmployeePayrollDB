@@ -22,3 +22,9 @@ alter table employee_payroll add gender char(1);
 --Assign Gender to all entries-----
 update employee_payroll  set gender ='M';
 update employee_payroll set gender='F' where name='Ashwin' or name='sahithi';
+--------------UC7---------------
+select gender,SUM(salary) as totalSalary from employee_payroll group by gender;
+select gender,AVG(salary) as averageSalary from employee_payroll group by gender;
+select gender,MIN(salary) as totalSalary from employee_payroll group by gender;
+select gender,MAX(salary) as totalSalary from employee_payroll group by gender;
+select gender,COUNT(salary) as countOfPeople from employee_payroll group by gender;
