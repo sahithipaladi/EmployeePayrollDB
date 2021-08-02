@@ -33,8 +33,8 @@ alter table employee_payroll add phonenumber bigint;
 alter table employee_payroll add address varchar(150) default 'bangalore';
 alter table employee_payroll add department varchar(150) not null default 'HR';
 
-update employee_payroll set phonenumber=8989343478,address='Chennai',department='Sales and Marketing' where name='Kundana';
+update employee_payroll set phonenumber=8989343478,address='Chennai',department='Sales and Marketing' where name='Sivaangi';
 update employee_payroll set phonenumber=7833829848,address='Chennai',department='HR' where name='Bill';
 update employee_payroll set phonenumber=8948373829,address='Bangalore',department='HR' where name='Mark';
-update employee_payroll set phonenumber=6748399848,address='Bangalore',department='Sales and Marketing' where name='Arjun';
-update employee_payroll set phonenumber=9494943537,address='Mumbai',department='HR' where name='Harini';
+update employee_payroll set phonenumber=6748399848,address='Bangalore',department='Sales and Marketing' where name='Ashwin';
+update employee_payroll set phonenumber=9494943537,address='Mumbai',department='HR' where name='sahithi';
