@@ -44,7 +44,7 @@ Department varchar(150) not null,
 );
 Insert into employee_department values
 (1,'HR'),(2,'Sales and Marketing'),(3,'Sales and Marketing'),(4,'HR'),(5,'HR'),(6,'Sales and Marketing');
---------------UC11---------------
+--------------UC12---------------
 ------------Retrieve All Tables-------------
 select * from employee_payroll;
 select * from employee;
